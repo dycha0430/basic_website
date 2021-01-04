@@ -11,7 +11,16 @@ body{
 }
 
 .btn {
-    cursor: pointer;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: transparent;
+    border: none;
+    color: white;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1 {
@@ -27,7 +36,6 @@ h1 {
     background-image: none;
     border-color: transparent;
     border: none;
-    
 }
 
 .form, .greetings {
@@ -52,6 +60,7 @@ h1 {
     color: white;
     font-family: "Times New Roman";
     font-size: larger;
+    line-height: 43px;
 }
 
 .weather {
