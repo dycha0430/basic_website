@@ -46,7 +46,7 @@ function paintGreeting(text){
     } else if (text == "김주형") {
         greeting.innerText = `전지구적차원(dnd)님 안녕하세요~ 오늘도 즐거운 디앤디하루~ +_+`;
         const image = new Image();
-        image.src = `Images/joohyeong.gif`;
+        image.src = `Images/hyejin.jpg`;
         image.classList.add('additionalImage');
         additionalImage.appendChild(image);
     } else {
