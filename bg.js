@@ -18,4 +18,5 @@ function init(){
     paintImage(randomNumber);
 }
 
+
 init();
