@@ -108,11 +108,3 @@ input {
     font-family: "Times New Roman", "굴림";
     text-align: center;   
 }
-
-.additionalImage {
-    display: block;
-    margin: 0px auto;
-    margin-bottom: 20px;
-
-    width: 35%;
-}
