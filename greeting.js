@@ -1,7 +1,7 @@
 const form = document.querySelector(".js-form"),
     input = form.querySelector("input"),
     greeting = document.querySelector(".js-greetings"),
-    additionalImage = document.querySelector(".js-image");
+    btn = document.querySelector(".tmp");
 
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
@@ -37,6 +37,7 @@ function paintGreeting(text){
     delBtn.classList.add("btn");
     delBtn.addEventListener("click", deleteName);
     div.appendChild(delBtn);
+    btn.appendChild(div);
 
     greeting.classList.add(SHOWING_CN);
     greeting.innerText = `안녕하세요 ${text}님`;
